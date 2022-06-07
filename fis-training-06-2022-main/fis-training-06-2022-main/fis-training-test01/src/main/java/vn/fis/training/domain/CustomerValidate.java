@@ -2,8 +2,10 @@ package vn.fis.training.domain;
 
 import vn.fis.training.exception.InvalidCustomerException;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.Period;
+import java.time.Year;
 
 public class CustomerValidate {
     public String name(){
@@ -18,15 +20,13 @@ public class CustomerValidate {
         }
         return result.substring(0,result.length()-1);
     }
-    public LocalDateTime birthDay(){
-        LocalDateTime dayNow = LocalDateTime.now();
-        if(birthDay() != null && dayNow != null ){
-            LocalDateTime years = Period.between(dayNow, birthDay()).getYears();
-            if (years > 10){
-                LocalDateTime parse = LocalDateTime.parse(years);
-                return parse;
-            }
+    public LocalDate birthDay(){
+        int dayNow = LocalDate.now().getYear();
+        int dayBirtDay = birthDay().getYear();
+        if (dayNow - dayBirtDay < 10){
+            throw new InvalidCustomerException("Customer Birth day is empty");
+        }else {
+            return birthDay();
         }
-        return null;
     }
 }

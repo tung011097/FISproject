@@ -52,7 +52,7 @@ public class Customer {
         String uuid = UUID.randomUUID().toString();
         this.id = uuid;
         this.name = customerValidate.name();
-        this.birthDay = birthDay;
+        this.birthDay = customerValidate.birthDay();
         this.mobile = mobile;
         this.status = status;
         this.createDateTime = createDateTime;
