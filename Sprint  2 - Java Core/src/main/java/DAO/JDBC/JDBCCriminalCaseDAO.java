@@ -18,7 +18,8 @@ public class JDBCCriminalCaseDAO implements IFCriminalCaseDAO {
 
     @Override
     public CriminalCase addCriminalCase(CriminalCase criminalCase) {
-        String query = "insert into criminal_case_tb(id, version, created, modified_at, number, short_description, detailed_description, notes, lead_investigator) \n" +
+        String query = "insert into criminal_case_tb(id, version, created, modified_at, `number`," +
+                " short_description, detailed_description, notes, lead_investigator) \n" +
                 "    VALUE (?,?,?,?,?,?,?,?,?);";
         try {
             Connection con = DataUtility.getDataSource().getConnection();
@@ -78,7 +79,8 @@ public class JDBCCriminalCaseDAO implements IFCriminalCaseDAO {
     @Override
     public CriminalCase updateCriminalCase(CriminalCase criminalCase) {
         String query = "UPDATE criminal_case_tb\n" +
-                "SET VERSION = ?, CREATED = ?, MODIFIED_AT = ?, NUMBER = ?, SHORT_DESCRIPTION = ?, DETAILED_DESCRIPTION = ?, NOTES = ?, LEAD_INVESTIGATOR = ?\n" +
+                "SET VERSION = ?, CREATED = ?, MODIFIED_AT = ?, NUMBER = ?, SHORT_DESCRIPTION = ?," +
+                " DETAILED_DESCRIPTION = ?, NOTES = ?, LEAD_INVESTIGATOR = ?\n" +
                 "WHERE ID = ?;";
         try {
             Connection con = DataUtility.getDataSource().getConnection();
