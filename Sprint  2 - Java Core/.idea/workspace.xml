@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3815a3ab-5460-4f7b-94f7-c81924ea272f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AIKZsWzLbf1wXVp18VxR1l2CbG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_opened_file_path": "F:/FIS/fresher-building-applications-spring-jdbc-ok",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "h2",
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\FIS\JAVA\BTlon_Spin2\src\test" />
+      <recent name="F:\FIS\JAVA\BTlon_Spin2\src\test\java" />
+      <recent name="F:\FIS\JAVA\BTlon_Spin2\src\main" />
+      <recent name="F:\FIS\JAVA\BTlon_Spin2\src\main\java\core" />
+      <recent name="F:\FIS\JAVA\BTlon_Spin2\src\core" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="DAO.memory" />
+      <recent name="DAO.JDBC" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="DAO.JDBC" />
+      <recent name="DAO.memory" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="core" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.JDBCCriminalCaseDAOTest.updateCriminalCase">
+    <configuration name="JDBCCriminalCaseDAOTest.addCriminalCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BTlon_Spin2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DAO.JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DAO.JDBC" />
+      <option name="MAIN_CLASS_NAME" value="DAO.JDBC.JDBCCriminalCaseDAOTest" />
+      <option name="METHOD_NAME" value="addCriminalCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCCriminalCaseDAOTest.updateCriminalCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BTlon_Spin2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DAO.JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DAO.JDBC" />
+      <option name="MAIN_CLASS_NAME" value="DAO.JDBC.JDBCCriminalCaseDAOTest" />
+      <option name="METHOD_NAME" value="updateCriminalCase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCDetectiveDAOTest.updateDetective" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BTlon_Spin2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DAO.JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DAO.JDBC" />
+      <option name="MAIN_CLASS_NAME" value="DAO.JDBC.JDBCDetectiveDAOTest" />
+      <option name="METHOD_NAME" value="updateDetective" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCEvidenceDAOTest.addEvidence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BTlon_Spin2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DAO.JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DAO.JDBC" />
+      <option name="MAIN_CLASS_NAME" value="DAO.JDBC.JDBCEvidenceDAOTest" />
+      <option name="METHOD_NAME" value="addEvidence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JDBCEvidenceDAOTest.deleteByIdEvidence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BTlon_Spin2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DAO.JDBC.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DAO.JDBC" />
+      <option name="MAIN_CLASS_NAME" value="DAO.JDBC.JDBCEvidenceDAOTest" />
+      <option name="METHOD_NAME" value="deleteByIdEvidence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JDBCCriminalCaseDAOTest.updateCriminalCase" />
+        <item itemvalue="JUnit.JDBCCriminalCaseDAOTest.addCriminalCase" />
+        <item itemvalue="JUnit.JDBCEvidenceDAOTest.deleteByIdEvidence" />
+        <item itemvalue="JUnit.JDBCEvidenceDAOTest.addEvidence" />
+        <item itemvalue="JUnit.JDBCDetectiveDAOTest.updateDetective" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3815a3ab-5460-4f7b-94f7-c81924ea272f" name="Changes" comment="" />
+      <created>1654691729837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654691729837</updated>
+      <workItem from="1654691732881" duration="2417000" />
+      <workItem from="1654739172480" duration="780000" />
+      <workItem from="1654744776945" duration="19017000" />
+      <workItem from="1654782319556" duration="822000" />
+      <workItem from="1654783531907" duration="10456000" />
+      <workItem from="1654824987444" duration="11612000" />
+      <workItem from="1654852227627" duration="883000" />
+      <workItem from="1654857974099" duration="14771000" />
+      <workItem from="1654915873562" duration="3260000" />
+      <workItem from="1654963037519" duration="79000" />
+      <workItem from="1655041800548" duration="4030000" />
+      <workItem from="1655084146662" duration="10557000" />
+      <workItem from="1655101926782" duration="2933000" />
+      <workItem from="1655113220147" duration="7057000" />
+      <workItem from="1655170927934" duration="527000" />
+      <workItem from="1655177503262" duration="993000" />
+      <workItem from="1655182907715" duration="1173000" />
+      <workItem from="1655259072252" duration="25000" />
+      <workItem from="1655262045658" duration="1234000" />
+      <workItem from="1655349458697" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BTlon_Spin2$JDBCDetectiveDAOTest.ic" NAME="JDBCDetectiveDAOTest Coverage Results" MODIFIED="1654869950807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>DAO.JDBC.*</FILTER>
+    </SUITE>
+  </component>
+</project>
